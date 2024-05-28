@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Fevicon_Icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- NavBar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-Secondary bg-dark position-fixed">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="Images/Main_Logo-removebg-preview.png" alt=""
+                    style="height: 45px; width: 110px;"></a>
+            <a class="navbar-brand text-light fs-6 p-4" href="#">SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light p-4" aria-current="page" href="#">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light p-4" href="#">FIND GEAR</a>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link new text-light p-4" href="#" tabindex="-1" aria-disabled="true">NEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link sale text-light p-4" href="#" tabindex="-1" aria-disabled="true">SALE</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="me-4 text-light searchbar" type="search" placeholder="Search" aria-label="Search">
+                    <i class="bi bi-search text-light fw-bold searchicon"></i>
+                    <div class="iconic">
+                        <a href="sign_in.html"><i class="bi bi-person-fill text-light fw-bold"></i></a>
+                        <a href="Add_To_Cart.html"><i class="bi bi-cart text-light fw-bold"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+    
+
+    <!-- Main Content -->
+    <div class="container-fluid mt-5 pt-5">
+        <div class="row m-auto">
+            <div class="cart col-7">
+                <img id="image" src="" alt="" width="650px" height="500px">
+            </div>
+            <div class="data col-4">
+                <h2 id="title"></h2>
+                <hr class="mt-5">
+                <p>Brand — Sierra Designs</p>
+                <hr>
+                <p>category — Cloths</p>
+                <hr>
+                <span>PRICE: <p id="price" style="display: inline;"></p></span><br>
+                <button class="ps-5 pe-5 pt-2 pb-2 mt-3 col-12" style="background-color: black; color: white; border: 2px solid #007681; font-family: 'Times New Roman', Times, serif;" id="add-to-cart-btn">ADD TO CART</button>
+                <p class="mt-3"><strong>About the Product:The Product is made by Sierra Designs. The Product is for Adventure or Styling Purpose.</strong>
+                    <hr>
+                    <span id="description"></span>
+                </p>
+                <a href="#" class="text-decoration-none text-center">*Get free Ground Shipping on orders $150+</a>
+                <a href="#" class="text-dark d-block mt-2 pb-2">EXPLORE THE COLLECTION BELOW</a>
+            </div>
+            <a href="index.html" style="margin-top: -40px;"><span><button style="background-color: black; color: white; border: 2px solid #007681; font-family: 'Times New Roman', Times, serif; padding: 7px 30px; font-size: 20px; margin-right: 500px;">Way to Home Page</button></span></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- <div class="main-footer">
+        <div class="tree">
+          <img src="Images/Last_Trees.png" alt="">
+        </div>
+        <footer class="footer">
+          <div class="main-footer">
+            <div class="container-fluid">
+              <div class="d-flex gap-5 pt-5">
+                <div class="Shop" style="text-align: justify;">
+                    <h5>Shop</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-decoration-none">Tents</a></li>
+                      <li><a href="#" class="text-decoration-none">Slpping Bags</a></li>
+                      <li><a href="#" class="text-decoration-none">Bagpacks</a></li>
+                      <li><a href="#" class="text-decoration-none">Men's Apparel</a></li>
+                      <li><a href="#" class="text-decoration-none">Women Bags</a></li>
+                    </ul>
+                </div>
+                <div class=" help" style="text-align: justify;">
+                  <h5>Help</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Your Account</a></li>
+                    <li><a href="#" class="text-decoration-none">FAQ</a></li>
+                    <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="text-decoration-none">Shipping</a></li>
+                  </ul>
+                </div>
+                <div class="about" style="text-align: justify;">
+                  <h5>About</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text-decoration-none">Our Story</a></li>
+                    <li><a href="#" class="text-decoration-none">Affiliate Program</a></li>
+                    <li><a href="#" class="text-decoration-none">Social Responsibility</a></li>
+                    <li><a href="#" class="text-decoration-none">Accessibility Statement</a></li>
+                    <li><a href="#" class="text-decoration-none">CA Prop 65 FAQ</a></li>
+                    <li><a href="#" class="text-decoration-none">Sitemap</a></li>
+                  </ul>
+                </div>
+                <div class="product" style="text-align: justify;">
+                  <h5>Product</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Return Policy</a></li>
+                    <li><a href="#" class="text-decoration-none">Product Care</a></li>
+                    <li><a href="#" class="text-decoration-none">Product Registration</a></li>
+                    <li><a href="#" class="text-decoration-none">Parts & Warranty Info</a></li>
+                    <li><a href="#" class="text-decoration-none">Pro Purchase Program</a></li>
+                    <li><a href="#" class="text-decoration-none">Distributors</a></li>
+                  </ul>
+                </div>
+                <div class="social" style="text-align: justify;">
+                    <h5>Social</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-decoration-none">Facebook</a></li>
+                      <li><a href="#" class="text-decoration-none">Instagram</a></li>
+                      <li><a href="#" class="text-decoration-none">Twitter</a></li>
+                      <li><a href="#" class="text-decoration-none">Youtube</a></li>
+                    </ul>
+                  </div>
+                  <div class="entering-email">
+                    <h5>Enter Your Email</h5>
+                    <p>Get the most up to date info on new products, promos and camping tips</p>
+                    <div class="collabs">
+                      <tr colspan="2">
+                        <td><input type="text" placeholder="Your Email Addres"></td>
+                        <td><button>Sign Up</button></td>
+                      </tr>
+                    </div>
+                  </div>
+              </div>
+              
+           </div>
+              <div class="main-para row">
+                <div class="col para d-flex">
+                  <p>&copy; 2024 Sierra Designs | All Rights Reserved</p>
+                  <a href="#" class="text-decoration-none">Terms of Use</a>
+                  <a href="#" class="text-decoration-none">Accessibility</a>
+                  <a href="#" class="text-decoration-none">Privacy Policy</a>
+                  <a href="#" class="text-decoration-none">CTSCA Disclosure</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        </footer>
+    </div> -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            const title = params.get("title");
+            const image = params.get("image");
+            const price = params.get("price");
+            const description = params.get("description");
+
+            document.getElementById("title").innerText = title;
+            document.getElementById("image").src = image;
+            document.getElementById("price").innerText = price;
+            document.getElementById("description").innerText = description;
+
+            document.getElementById("add-to-cart-btn").addEventListener("click", () => {
+                const cartData = { title, image, price };
+                fetch("http://localhost:3000/cart", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(cartData)
+                })
+                .then((res) => res.json())
+                .then(() => alert("Added to cart"))
+                .catch((err) => console.error("Error adding to cart:", err));
+            });
+        });
+    </script>
+</body>
+
+</html>

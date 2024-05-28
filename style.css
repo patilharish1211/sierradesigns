@@ -1,0 +1,2055 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    .searchbar {
+        background-color: transparent;
+        color: red;
+        border: none;
+        border-bottom: 2px solid white;
+        border-radius: 0px;
+        outline: none;
+        position: absolute;
+        right: 140px;
+        top: 35px;
+    }
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+        border-bottom: 2px solid yellow;
+        z-index: 999;
+    }
+
+    .searchicon {
+        /* margin-right: 50px; */
+        position: absolute;
+        right: 148px;
+        top: 35px;
+    }
+
+    .iconic i {
+        font-size: 25px;
+        padding: 0px 13px;
+    }
+
+    .firstimages {
+        background-image: url("Images/Main_Image.webp");
+        height: 87vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .firstimages span {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 25px 0px;
+        height: 150px;
+    }
+
+    .firstimages p {
+        color: black;
+        background-color: #ECF0F1;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .firstimages button {
+        padding: 10px 20px;
+        border: 1px solid white;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        /* font-weight: bold; */
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .info {
+        margin-top: 25%;
+        margin-left: 5%;
+        position: absolute;
+    }
+
+    .featured-gear h2 {
+        font-weight: bold;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+
+    .first img {
+        height: 650px;
+        width: 90%;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+
+    .first button {
+        padding: 10px 35px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        position: absolute;
+        left: 8%;
+        top: 190%;
+        font-size: 18px;
+    }
+
+    .second img {
+        height: 650px;
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 0px 20px;
+        cursor: pointer;
+    }
+
+    .second button {
+        padding: 10px 55px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        position: absolute;
+        left: 37%;
+        top: 190%;
+        font-size: 18px;
+    }
+
+    .third img {
+        height: 650px;
+        width: 90%;
+        cursor: pointer;
+    }
+
+    .third button {
+        padding: 10px 55px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        position: absolute;
+        left: 68%;
+        top: 190%;
+        font-size: 18px;
+    }
+
+    .swiper-heading span {
+        font-size: 15px;
+    }
+
+    /* ############### Swiper ############### */
+    .swiper {
+        width: 90%;
+        height: 90%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-heading {
+        padding: 5px 102px;
+    }
+
+    .swiper-heading span {
+        font-size: 12px;
+    }
+
+    /* Inner_Box_*/
+
+    .swiper-slider .img-1 {
+        background-color: white;
+    }
+    .swiper-span-1 {
+        font-weight: 400;
+    }
+
+    .slider-paras-1 p {
+        text-align: left;
+    }
+
+    .slider-paras-1 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-1 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-2 {
+        font-weight: 400;
+    }
+
+    .slider-paras-2 p {
+        text-align: left;
+    }
+
+    .slider-paras-2 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-2 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-3 {
+        font-weight: 400;
+    }
+
+    .slider-paras-3 p {
+        text-align: left;
+    }
+
+    .slider-paras-3 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-3 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-4 {
+        font-weight: 400;
+    }
+
+    .slider-paras-4 p {
+        text-align: left;
+    }
+
+    .slider-paras-4 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-4 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-5 {
+        font-weight: 400;
+    }
+
+    .slider-paras-5 p {
+        text-align: left;
+    }
+
+    .slider-paras-5 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-5 p:last-child {
+        font-weight: bold;
+    }
+    .swiper-span-6 {
+        font-weight: 400;
+    }
+
+    .slider-paras-6 p {
+        text-align: left;
+    }
+
+    .slider-paras-6 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-6 p:last-child {
+        font-weight: bold;
+    }
+    .swiper-span-7 {
+        font-weight: 400;
+    }
+
+    .slider-paras-7 p {
+        text-align: left;
+    }
+
+    .slider-paras-7 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-7 p:last-child {
+        font-weight: bold;
+    }
+    
+    .swiper-span-8 {
+        font-weight: 400;
+    }
+
+    .slider-paras-8 p {
+        text-align: left;
+    }
+
+    .slider-paras-8 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-8 p:last-child {
+        font-weight: bold;
+    }
+    
+    .swiper-span-9 {
+        font-weight: 400;
+    }
+
+    .slider-paras-9 p {
+        text-align: left;
+    }
+
+    .slider-paras-9 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-9 p:last-child {
+        font-weight: bold;
+    }
+    
+    .lady-with-tent {
+        background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Images/Lady_With_Tent.png");
+        height: 120vh;
+        width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .lady-with-tent p:first-child {
+        color: white;
+        font-size: 50px;
+        padding-bottom: -5px;
+    }
+
+
+    .two-buttons button:first-child {
+        padding: 10px 68px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+
+    .two-buttons button:last-child {
+        padding: 10px 35px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+
+    .inner-info {
+        position: absolute;
+        left: 8%;
+        top: 70%;
+    }
+
+    /* Second_Slider */
+
+    .swiper-heading-2 {
+        padding: 5px 102px;
+    }
+
+    .swiper-heading-2 span {
+        font-size: 12px;
+    }
+
+    .second_slider{
+        padding-top: 2%;
+    }
+
+    .swiper-span-1 {
+        font-weight: 400;
+    }
+
+    .slider-paras-1 p {
+        text-align: left;
+    }
+
+    .slider-paras-1 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-1 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-2 {
+        font-weight: 400;
+    }
+
+    .slider-paras-2 p {
+        text-align: left;
+    }
+
+    .slider-paras-2 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-2 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-3 {
+        font-weight: 400;
+    }
+
+    .slider-paras-3 p {
+        text-align: left;
+    }
+
+    .slider-paras-3 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-3 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-4 {
+        font-weight: 400;
+    }
+
+    .slider-paras-4 p {
+        text-align: left;
+    }
+
+    .slider-paras-4 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-4 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-5 {
+        font-weight: 400;
+    }
+
+    .slider-paras-5 p {
+        text-align: left;
+    }
+
+    .slider-paras-5 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-5 p:last-child {
+        font-weight: bold;
+    }
+    
+    .swiper-span-6 {
+        font-weight: 400;
+    }
+
+    .slider-paras-6 p {
+        text-align: left;
+    }
+
+    .slider-paras-6 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-6 p:last-child {
+        font-weight: bold;
+    }
+
+    .swiper-span-7 {
+        font-weight: 400;
+    }
+
+    .slider-paras-7 p {
+        text-align: left;
+    }
+
+    .slider-paras-7 p:first-child {
+        font-weight: 300px;
+    }
+
+    .slider-paras-7 p:last-child {
+        font-weight: bold;
+    }
+    
+    
+    .lady_with_night_cap {
+        background-image: url("Images/lady_with_night_cap.webp");
+        height: 120vh;
+        width: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .lady_with_night_cap p:first-child {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: -5px;
+    }
+
+
+    .night-cap-btn button{
+        padding: 10px 68px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    .inner-info-night-cap {
+        position: absolute;
+        left: 8%;
+        top: 40%;
+    }
+
+
+
+
+/* ###################Third_Slider ################# */
+
+.swiper-heading-2 {
+    padding: 5px 102px;
+}
+
+.swiper-heading-2 span {
+    font-size: 12px;
+}
+
+.second_slider{
+    padding-top: 2%;
+}
+
+.swiper-span-1 {
+    font-weight: 400;
+}
+
+.slider-paras-1 p {
+    text-align: left;
+}
+
+.slider-paras-1 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-1 p:last-child {
+    font-weight: bold;
+}
+
+
+.swiper-span-2 {
+    font-weight: 400;
+}
+
+.slider-paras-2 p {
+    text-align: left;
+}
+
+.slider-paras-2 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-2 p:last-child {
+    font-weight: bold;
+}
+.swiper-span-3 {
+    font-weight: 400;
+}
+
+.slider-paras-3 p {
+    text-align: left;
+}
+
+.slider-paras-3 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-3 p:last-child {
+    font-weight: bold;
+}
+.swiper-span-4 {
+    font-weight: 400;
+}
+
+.slider-paras-4 p {
+    text-align: left;
+}
+
+.slider-paras-4 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-4 p:last-child {
+    font-weight: bold;
+}
+
+
+.swiper-span-5 {
+    font-weight: 400;
+}
+
+.slider-paras-5 p {
+    text-align: left;
+}
+
+.slider-paras-5 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-5 p:last-child {
+    font-weight: bold;
+}
+
+.swiper-span-6 {
+    font-weight: 400;
+}
+
+.slider-paras-6 p {
+    text-align: left;
+}
+
+.slider-paras-6 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-6 p:last-child {
+    font-weight: bold;
+}
+
+
+.swiper-span-7 {
+    font-weight: 400;
+}
+
+.slider-paras-7 p {
+    text-align: left;
+}
+
+.slider-paras-7 p:first-child {
+    font-weight: 300px;
+}
+
+.slider-paras-7 p:last-child {
+    font-weight: bold;
+}
+
+.frnds {
+    background-image: url("Images/frnds.webp");
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frnds p:first-child {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: -5px;
+}
+
+
+.frnds-btn   button{
+    padding: 10px 68px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.frnds-inner-info {
+    position: absolute;
+    left: 8%;
+    top: 40%;
+}
+
+
+.first-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.first-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.second-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.second-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.third-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.third-of-three h6{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-top: 4px solid #007681;
+    margin-top: 5.7%;
+}
+.para a{
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(158, 153, 153);
+    text-align: right;
+    margin-top: 13%;
+}
+.para p{
+    padding-right: 40px;
+    color: rgb(158, 153, 153);
+    margin-top: 13%;
+}
+
+/* social */
+.collabs button{
+    border: 3px solid white;
+    background-color: white;
+}
+.collabs input{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.collabs input::placeholder{
+    color: white;
+    font-weight: 450;
+}
+.Shop h5{
+    font-weight: bold;
+}
+.Shop li{
+    padding: 5px 0px;
+}
+.Shop a{
+    color: white;
+}
+.help h5{
+    font-weight: bold;
+}
+.help li{
+    padding: 5px 0px;
+}
+.help a{
+    color: white;
+}
+.about h5{
+    font-weight: bold;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about a{
+    color: white;
+}
+.product h5{
+    font-weight: bold;
+}
+.product li{
+    padding:5px 0px;
+}
+.product a{
+    color: white;
+}
+.social h5{
+    font-weight: bold;
+}
+.social li{
+    padding: 5px 0px;
+}
+.social a{
+    color: white;
+}
+.entering-email p{
+    text-align: justify;
+    font-size: 15px;
+}
+.collabs button{
+    width: 120px;
+}
+.tree img{
+    position: absolute;
+    top: 918.5%;
+    left: 80%;
+}
+
+
+/* ################################################ Add_To_Cart.css ########################### */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.searchbar{
+    background-color: transparent; 
+    color: red;
+    border: none; 
+    border-bottom: 2px solid white;
+    border-radius: 0px; 
+    outline: none;
+    position: absolute;
+    right: 140px;
+    top: 35px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    z-index: 999;
+}
+.searchicon{
+    /* margin-right: 50px; */
+    position: absolute;
+    right: 148px;
+    top: 35px;
+}
+.iconic i{
+    font-size: 25px;
+    padding: 0px 13px;
+}
+.firstimages{
+    background-image: url("Images/first_main_IMages.jpeg");
+    height: 87vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+.firstimages span {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 25px 0px;
+    height: 150px;
+}.firstimages p{
+    color: black;
+    background-color: #ECF0F1;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 22px;
+}
+.firstimages button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    width: 200px;
+}
+.info{
+    margin-top: 25%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.featured-gear h2{
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.first img{
+    height: 650px;
+    width: 90%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.first button{
+    padding: 10px 35px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    left: 5%;
+    top: 161%;
+}
+.second img{
+    height: 650px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.second button{
+    padding: 10px 55px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    left: 37%;
+    top: 161%;
+}
+.third img{
+    height: 650px;
+    width: 90%;
+    cursor: pointer;
+}
+.third button{
+    padding: 10px 55px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    left: 68%;
+    top: 162%;
+}
+
+.swiper-heading span{
+    font-size: 15px;
+}
+
+/* ############### Swiper ############### */
+.swiper {
+    width: 85%;
+    height: 85%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swiper-heading{
+    padding: 5px 102px;
+}
+.swiper-heading span{
+    font-size: 12px;
+}
+
+    /*  Inner_Box_ */
+.inner-box-1{
+    background-color: aqua;
+}
+.swiper-slider .img-1{
+    background-color: white;
+}
+.swiper-span-1{
+    font-weight: 400;
+}
+
+.slider-paras-1 p{
+    text-align: left;
+}
+.slider-paras-1 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-1 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-2{
+    font-weight: 400;
+}
+
+.slider-paras-2 p{
+    text-align: left;
+}
+.slider-paras-2 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-2 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-3{
+    font-weight: 400;
+}
+
+.slider-paras-3 p{
+    text-align: left;
+}
+.slider-paras-3 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-3 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-4{
+    font-weight: 400;
+}
+
+.slider-paras-4 p{
+    text-align: left;
+}
+.slider-paras-4 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-4 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-5{
+    font-weight: 400;
+}
+
+.slider-paras-5 p{
+    text-align: left;
+}
+.slider-paras-5 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-5 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-6{
+    font-weight: 400;
+}
+
+.slider-paras-6 p{
+    text-align: left;
+}
+.slider-paras-6 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-6 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-7{
+    font-weight: 400;
+}
+
+.slider-paras-7 p{
+    text-align: left;
+}
+.slider-paras-7 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-7 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-8{
+    font-weight: 400;
+}
+
+.slider-paras-8 p{
+    text-align: left;
+}
+.slider-paras-8 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-8 p:last-child{
+    font-weight: bold;
+}
+
+.swiper-span-9{
+    font-weight: 400;
+}
+
+.slider-paras-9 p{
+    text-align: left;
+}
+.slider-paras-9 p:first-child{
+    font-weight: 300px;
+}
+.slider-paras-9 p:last-child{
+    font-weight: bold;
+}
+
+.lady-with-tent{
+    background-image: radial-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("Images/Lady_With_Tent.png");
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lady-with-tent p:first-child{
+    color: white;
+    font-size: 50px;
+}
+.lady-with-tent p:last-child{
+    color: white;
+    font-size: 50px;
+}
+
+.two-buttons button:first-child{
+    padding: 10px 68px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.two-buttons button:last-child{
+    padding: 10px 35px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.first-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.first-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.second-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.second-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.third-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.third-of-three h6{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-top: 4px solid #007681;
+    margin-top: 5.7%;
+}
+.para a{
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(158, 153, 153);
+    text-align: right;
+    margin-top: 13%;
+}
+.para p{
+    padding-right: 40px;
+    color: rgb(158, 153, 153);
+    margin-top: 13%;
+}
+
+/* social */
+.collabs button{
+    border: 3px solid white;
+    background-color: white;
+}
+.collabs input{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.collabs input::placeholder{
+    color: white;
+    font-weight: 450;
+}
+.Shop h5{
+    font-weight: bold;
+}
+.Shop li{
+    padding: 5px 0px;
+}
+.Shop a{
+    color: white;
+}
+.help h5{
+    font-weight: bold;
+}
+.help li{
+    padding: 5px 0px;
+}
+.help a{
+    color: white;
+}
+.about h5{
+    font-weight: bold;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about a{
+    color: white;
+}
+.product h5{
+    font-weight: bold;
+}
+.product li{
+    padding:5px 0px;
+}
+.product a{
+    color: white;
+}
+.social h5{
+    font-weight: bold;
+}
+.social li{
+    padding: 5px 0px;
+}
+.social a{
+    color: white;
+}
+.entering-email p{
+    text-align: justify;
+    font-size: 15px;
+}
+.collabs button{
+    width: 120px;
+}
+.tree img{
+    position: absolute;
+    top: 106%;
+    left: 80%;
+}
+
+/* ######################################## Cart.css ################################################################# */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.searchbar {
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    outline: none;
+    position: absolute;
+    right: 140px;
+    top: 35px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    z-index: 999;
+}
+
+.searchicon {
+    /* margin-right: 50px; */
+    position: absolute;
+    right: 148px;
+    top: 35px;
+}
+
+.iconic i {
+    font-size: 25px;
+    padding: 0px 13px;
+}
+/* footer */
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-top: 4px solid #007681;
+    margin-top: 5.7%;
+}
+.para a{
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(158, 153, 153);
+    text-align: right;
+    margin-top: 13%;
+}
+.para p{
+    padding-right: 40px;
+    color: rgb(158, 153, 153);
+    margin-top: 13%;
+}
+
+/* social */
+.collabs button{
+    border: 3px solid white;
+    background-color: white;
+}
+.collabs input{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.collabs input::placeholder{
+    color: white;
+    font-weight: 450;
+}
+.Shop h5{
+    font-weight: bold;
+}
+.Shop li{
+    padding: 5px 0px;
+}
+.Shop a{
+    color: white;
+}
+.help h5{
+    font-weight: bold;
+}
+.help li{
+    padding: 5px 0px;
+}
+.help a{
+    color: white;
+}
+.about h5{
+    font-weight: bold;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about a{
+    color: white;
+}
+.product h5{
+    font-weight: bold;
+}
+.product li{
+    padding:5px 0px;
+}
+.product a{
+    color: white;
+}
+.social h5{
+    font-weight: bold;
+}
+.social li{
+    padding: 5px 0px;
+}
+.social a{
+    color: white;
+}
+.entering-email p{
+    text-align: justify;
+    font-size: 15px;
+}
+.collabs button{
+    width: 120px;
+}
+.tree img{
+    position: absolute;
+    top: 918.5%;
+    left: 80%;
+}
+
+
+/* ######################################### discription-page.css ################################################# */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* NavBar */
+.searchbar {
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    outline: none;
+    position: absolute;
+    right: 140px;
+    top: 35px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    z-index: 999;
+}
+
+.searchicon {
+    /* margin-right: 50px; */
+    position: absolute;
+    right: 148px;
+    top: 35px;
+}
+
+.iconic i {
+    font-size: 25px;
+    padding: 0px 13px;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-top: 4px solid #007681;
+    margin-top: 5.7%;
+}
+.para a{
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(158, 153, 153);
+    text-align: right;
+    margin-top: 13%;
+}
+.para p{
+    padding-right: 40px;
+    color: rgb(158, 153, 153);
+    margin-top: 13%;
+}
+
+/* social */
+.collabs button{
+    border: 3px solid white;
+    background-color: white;
+}
+.collabs input{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.collabs input::placeholder{
+    color: white;
+    font-weight: 450;
+}
+.Shop h5{
+    font-weight: bold;
+}
+.Shop li{
+    padding: 5px 0px;
+}
+.Shop a{
+    color: white;
+}
+.help h5{
+    font-weight: bold;
+}
+.help li{
+    padding: 5px 0px;
+}
+.help a{
+    color: white;
+}
+.about h5{
+    font-weight: bold;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about a{
+    color: white;
+}
+.product h5{
+    font-weight: bold;
+}
+.product li{
+    padding:5px 0px;
+}
+.product a{
+    color: white;
+}
+.social h5{
+    font-weight: bold;
+}
+.social li{
+    padding: 5px 0px;
+}
+.social a{
+    color: white;
+}
+.entering-email p{
+    text-align: justify;
+    font-size: 15px;
+}
+.collabs button{
+    width: 120px;
+}
+.tree img{
+    position: absolute;
+    top: 93%;
+    left: 80%;
+}
+
+/* ######################################### product-page.css ################################################# */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* NavBar */
+.searchbar {
+    background-color: transparent;
+    color: red;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    outline: none;
+    position: absolute;
+    right: 140px;
+    top: 35px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    z-index: 999;
+}
+
+.searchicon {
+    /* margin-right: 50px; */
+    position: absolute;
+    right: 148px;
+    top: 35px;
+}
+
+.iconic i {
+    font-size: 25px;
+    padding: 0px 13px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.first-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.first-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.second-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.second-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.third-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.third-of-three h6{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-top: 4px solid #007681;
+    margin-top: 5.7%;
+}
+.para a{
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(158, 153, 153);
+    text-align: right;
+    margin-top: 13%;
+}
+.para p{
+    padding-right: 40px;
+    color: rgb(158, 153, 153);
+    margin-top: 13%;
+}
+
+/* social */
+.collabs button{
+    border: 3px solid white;
+    background-color: white;
+}
+.collabs input{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.collabs input::placeholder{
+    color: white;
+    font-weight: 450;
+}
+.Shop h5{
+    font-weight: bold;
+}
+.Shop li{
+    padding: 5px 0px;
+}
+.Shop a{
+    color: white;
+}
+.help h5{
+    font-weight: bold;
+}
+.help li{
+    padding: 5px 0px;
+}
+.help a{
+    color: white;
+}
+.about h5{
+    font-weight: bold;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about a{
+    color: white;
+}
+.product h5{
+    font-weight: bold;
+}
+.product li{
+    padding:5px 0px;
+}
+.product a{
+    color: white;
+}
+.social h5{
+    font-weight: bold;
+}
+.social li{
+    padding: 5px 0px;
+}
+.social a{
+    color: white;
+}
+.entering-email p{
+    text-align: justify;
+    font-size: 15px;
+}
+.collabs button{
+    width: 120px;
+}
+.tree img{
+    position: absolute;
+    top: 918.5%;
+    left: 80%;
+}
+
+/* ######################################### sign_in.css ################################################# */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.searchbar{
+    background-color: transparent; 
+    color: red;
+    border: none; 
+    border-bottom: 2px solid white;
+    border-radius: 0px; 
+    outline: none;
+    right: 140px;
+    top: 35px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    z-index: 1;
+}
+.searchicon{
+    position: absolute;
+    right: 148px;
+    top: 35px;
+}
+.iconic i{
+    font-size: 25px;
+    padding: 0px 13px;
+}
+
+
+
+.sign-in
+{
+    padding-top: 5%;
+    margin: auto;
+}
+.sign-in-main
+{
+    margin-top: 15%;
+}
+
+
+.text-center{
+  padding: 70px 0px;
+}
+
+.email p{
+  color: gray;
+}
+  .sign-in-password p{
+  color: gray;
+}
+.sign-in-password{
+  padding-bottom: 10px;
+}
+  .submit-btn button{
+  height: 50px;
+  width: 300px;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 12px;
+  }
+  .submit-btn p{
+    padding: 15px 0px;
+    margin-left: 75px;
+  }
+
+  .email input{
+    height: 40px;
+    width: 330px;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  .email p{
+    margin-bottom: 5px;
+    margin-left: 2px;
+  }
+
+  .sign-in-password input{
+    height: 40px;
+    width: 330px;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  .sign-in-password p{
+    margin-bottom: 5px;
+    margin-left: 2px;
+    padding-top: 30px;
+  }
+
+  .sign-in-left{
+    border-right: 1px solid black;
+    margin-top: 50px;
+  }
+
+
+/* footer css */
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .footer-col {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .footer-col a:hover {
+    color: #000;
+  }
+  
+  .footer-col.footer-col:last-child {
+    text-align: left;
+  }
+  
+  .footer-col.footer-col:last-child form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col.footer-col:last-child input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .footer-col.footer-col:last-child button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .sign-in-right button{
+    height: 50px;
+    width: 300px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .sign-in-left{
+    padding-right: 5% ;
+  }
+.sign-in-right{
+  margin-left: 60%;
+  margin-top: -48%;
+}
+
+  .first-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.first-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.second-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.second-of-three h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.third-of-three img{
+    height: 300px;
+    width: 300px;
+}
+.third-of-three h6{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 600px;
+    border-top: 4px solid #007681;
+    margin-top: 5.7%;
+}
+.para a{
+    padding: 0px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(158, 153, 153);
+    text-align: right;
+    margin-top: 13%;
+}
+.para p{
+    padding-right: 40px;
+    color: rgb(158, 153, 153);
+    margin-top: 13%;
+}
+
+/* social */
+.collabs button{
+    border: 3px solid white;
+    background-color: white;
+}
+.collabs input{
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.collabs input::placeholder{
+    color: white;
+    font-weight: 450;
+}
+.Shop h5{
+    font-weight: bold;
+}
+.Shop li{
+    padding: 5px 0px;
+}
+.Shop a{
+    color: white;
+}
+.help h5{
+    font-weight: bold;
+}
+.help li{
+    padding: 5px 0px;
+}
+.help a{
+    color: white;
+}
+.about h5{
+    font-weight: bold;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about a{
+    color: white;
+}
+.product h5{
+    font-weight: bold;
+}
+.product li{
+    padding:5px 0px;
+}
+.product a{
+    color: white;
+}
+.social h5{
+    font-weight: bold;
+}
+.social li{
+    padding: 5px 0px;
+}
+.social a{
+    color: white;
+}
+.entering-email p{
+    text-align: justify;
+    font-size: 15px;
+}
+.collabs button{
+    width: 120px;
+}
+.tree img{
+    position: absolute;
+    top: 150%;
+    left: 80%;
+}
+
+.creataccount a{
+  color: white;
+  text-decoration: none;
+}

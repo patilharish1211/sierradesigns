@@ -69,7 +69,7 @@
                 <p>category — Cloths</p>
                 <hr>
                 <span>PRICE: <p id="price" style="display: inline;"></p></span><br>
-                <button class="ps-5 pe-5 pt-2 pb-2 mt-3 col-12" style="background-color: black; color: white; border: 2px solid #007681; font-family: 'Times New Roman', Times, serif;" id="add-to-cart-btn">ADD TO CART</button>
+                <button class="ps-5 pe-5 pt-2 pb-2 mt-3 col-12" style="background-color: black; color: white; border: 2px solid #007681; font-family: 'Times New Roman', Times, serif;" id="cart">ADD TO CART</button>
                 <p class="mt-3"><strong>About the Product:The Product is made by Sierra Designs. The Product is for Adventure or Styling Purpose.</strong>
                     <hr>
                     <span id="description"></span>
@@ -168,32 +168,52 @@
         </footer>
     </div> -->
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const params = new URLSearchParams(window.location.search);
-            const title = params.get("title");
-            const image = params.get("image");
-            const price = params.get("price");
-            const description = params.get("description");
+  </body>
+  
+  </html>
 
-            document.getElementById("title").innerText = title;
-            document.getElementById("image").src = image;
-            document.getElementById("price").innerText = price;
-            document.getElementById("description").innerText = description;
+  <script>
+    const param = new URLSearchParams(window.location.search) 
 
-            document.getElementById("add-to-cart-btn").addEventListener("click", () => {
-                const cartData = { title, image, price };
-                fetch("http://localhost:3000/cart", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(cartData)
-                })
-                .then((res) => res.json())
-                .then(() => alert("Added to cart"))
-                .catch((err) => console.error("Error adding to cart:", err));
-            });
-        });
-    </script>
-</body>
+    window.addEventListener("load", ()=>{
+      document.getElementById("image").src=param.get("image")
+      document.getElementById("title").innerText=param.get("title")
+      document.getElementById("price").innerText=param.get("price")
+      document.getElementById("description").innerText=param.get("description")
+    })
 
-</html>
+    cart.addEventListener("click", ()=>{
+      let carddata = {
+        
+      }
+    })
+  </script>
+  
+  <!-- <script>
+      document.addEventListener("DOMContentLoaded", () => {
+          const params = new URLSearchParams(window.location.search);
+          const title = params.get("title");
+          const image = params.get("image");
+          const price = params.get("price");
+          const description = params.get("description");
+
+          document.getElementById("title").innerText = title;
+          document.getElementById("image").src = image;
+          document.getElementById("price").innerText = price;
+          document.getElementById("description").innerText = description;
+      });
+      document.getElementById("add-to-cart-btn").addEventListener("click", () => {
+              const cartData = { title, image, price };
+              fetch("http://localhost:3000/cart", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify(cartData)
+              })
+              .then((res) => res.json())
+              .then(() => alert("Added to cart"))
+              .catch((err) => console.error("Error adding to cart:", err));
+          });
+  </script> -->
+
+  
+  <script src="cart.js"></script>

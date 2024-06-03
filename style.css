@@ -1190,7 +1190,8 @@
     height: 600px;
     border-top: 4px solid #007681;
     margin-top: 5.7%;
-}
+    z-index: 999;
+} 
 .para a{
     padding: 0px 8px;
     text-decoration: none;

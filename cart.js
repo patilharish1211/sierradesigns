@@ -1,14 +1,16 @@
 function fetchdata(){
-    fetch("https://java-script-a91o.onrender.com/cart")
+    fetch("http://localhost:3000/cart")
     .then((res)=>res.json())
-    .then((data)=>Cardlist(data))
+    .then((data)=>{
+      console.log(data)
+      Cardlist(data)})
     .catch((err)=>console.log(err))
 }
-fetchdata()
+fetchdata();
 
 function Cardlist(data){
     let totalcard=data.map((el)=>singlecard(el.title,el.description,el.image,el.price,el.id))
-    document.querySelector(".maincart").innerHTML=totalcard.join("")
+    document.getElementsByClassName("maincart").innerHTML=totalcard.join("")
 }
 
 function singlecard(title,description,image,price,id){

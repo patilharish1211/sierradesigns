@@ -92,27 +92,9 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="col-12 d-flex main-of-all gap-5 justify-content-center pt-5">
-            <div class="col-3 first-of-three gap">
-                <img src="https://cdn11.bigcommerce.com/s-2nze2/images/stencil/original/image-manager/group-shot-reachout.png?t=1644358718"
-                    alt="">
-                <h6>REACH OUT</h6>
-                <p>Our Partnerships with Nonprofits</p>
-            </div>
-            <div class="col-3 second-of-three">
-                <img src="https://cdn11.bigcommerce.com/s-2nze2/product_images/uploaded_images/hiker-pack-warranty2.png"
-                    alt="">
-                <h6>LIFETIME WARRANTY</h6>
-                <p>Gear meant to last</p>
-            </div>
-            <div class="col-3 third-of-three">
-                <img src="https://cdn11.bigcommerce.com/s-2nze2/product_images/uploaded_images/hiker-blog-image.png"
-                    alt="">
-                <h6>TIPS FOR YOUR NEXT ADVENTURE</h6>
-                <p>Check out the blog</p>
-            </div>
-        </div>
+ 
+    <div id="main" style="display: grid; grid-template-columns: repeat(3,1fr);">
+
     </div>
     <div class="main-footer">
         <div class="tree">
@@ -211,7 +193,8 @@
         })
         .catch((err) => console.log(err));
 
-    function onecardData(data) {
+    function onecardData(data
+    ) {
         let store = data.map((data) => cardlist(data.title, data.id, data.image, data.price, data.description, data.category));
         main.innerHTML = store.join("");
     }
